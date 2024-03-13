@@ -17,6 +17,11 @@ body {
   background: url(img/back1.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #88923d;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
 }
 #page2 {
   max-width: 100%;
@@ -48,6 +53,7 @@ body {
   font-size: 30px;
   letter-spacing: 1px;
   color: #1d9b16;
+  text-align: right;
 }
 .page1-container2 {
   display: flex;
@@ -67,6 +73,7 @@ body {
 .gallery h1 {
   font-size: 24px;
   padding: 7px 0;
+  text-align: center;
   color: #333333;
 }
 .gallery h4 {
@@ -74,11 +81,13 @@ body {
   padding: 7px 0;
   font-weight: 600;
   color: #1d9b16;
+  text-align: right;
 }
 .gallery h5 {
   font-size: 22px;
   padding: 7px 0;
   font-weight: 600;
+  text-align: right;
   color: #1d9b16;
 }
 .gallery p {
@@ -116,6 +125,7 @@ body {
 .text h2 {
   font-size: 24px;
   color: #1d9b16;
+  text-align: right;
   padding: 10px 20px;
 }
 .text h6 {
@@ -151,8 +161,9 @@ body {
   color: #333333;
 }
 .left h2 {
-  padding: 5px 0;
+  padding: 5px 100px;
   color: #1d9b16;
+  text-align: right;
 }
 .left h6 {
   padding: 5px 0;
@@ -177,8 +188,10 @@ body {
   color: #333333;
 }
 .right h2 {
-  padding: 5px 0;
+  /* padding: 5px 0; */
   color: #1d9b16;
+  text-align: right;
+  padding: 0 130px;
 }
 .right h6 {
   padding: 5px 0;
@@ -197,9 +210,6 @@ body {
     display: inline-block;
     width: 100%;
     position: relative;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background: url(img/back1.png);
     text-align: center;
   }
   .center {
@@ -210,7 +220,7 @@ body {
   .gallery {
     margin: 5px 10%;
     padding: 20px 0;
-    border: 1px solid #00918c;
+    border: 1px solid #1d9b16;
     width: 80%;
     height: 220px;
   }
@@ -221,16 +231,17 @@ body {
   }
   .gallery h4 {
     font-size: 22px;
-    padding: 5px 0;
+    padding: 5px 20px;
     color: #1d9b16;
   }
   .gallery h5 {
     font-size: 24px;
-    padding: 5px 0;
+    padding: 5px 20px;
     color: #1d9b16;
   }
   .gallery p {
-    padding: 5px 0;
+    padding: 5px 20px;
+    text-align: left;
     color: #333333;
     font-size: 20px;
   }
@@ -262,25 +273,25 @@ body {
   }
   .text h1 {
     font-size: 24px;
-    text-align: center;
+    text-align: left;
     color: #333333;
     padding: 5px 20px;
   }
   .text h2 {
     font-size: 20px;
-    text-align: center;
+    text-align: right;
     color: #1d9b16;
     padding: 5px 20px;
   }
   .text h6 {
     font-size: 15px;
-    text-align: center;
+    text-align: left;
     padding: 5px 20px;
     font-weight: 100;
   }
   .text p {
     font-size: 15px;
-    text-align: center;
+    text-align: left;
     padding: 5px 20px;
     font-weight: 100;
   }
@@ -306,21 +317,24 @@ body {
   }
   .left h1 {
     font-size: 24px;
-    text-align: center;
+    text-align: left;
     padding: 5px 20px;
   }
   .left h2 {
-    padding: 5px 0;
+    padding: 5px 20px;
+    text-align: right;
     color: #1d9b16;
   }
   .left h6 {
-    padding: 5px 0;
+    text-align: left;
+    padding: 5px 20px;
     font-weight: 100;
     color: #333333;
     font-size: 15px;
   }
   .left p {
-    padding: 5px 0;
+    text-align: left;
+    padding: 5px 20px;
     font-weight: 100;
     color: #333333;
     font-size: 15px;
@@ -336,22 +350,26 @@ body {
     padding-bottom: 20px;
   }
   .right h1 {
-    padding: 5px 0;
+    padding: 5px 20px;
+    text-align: left;
     color: #333333;
     font-size: 24px;
   }
   .right h2 {
-    padding: 5px 0;
+    padding: 5px 20px;
+    text-align: right;
     color: #1d9b16;
   }
   .right h6 {
-    padding: 5px 0;
+    padding: 5px 20px;
     font-weight: 100;
+    text-align: left;
     color: #333333;
     font-size: 15px;
   }
   .right p {
-    padding: 5px 0;
+    padding: 5px 20px;
+    text-align: left;
     font-weight: 100;
     color: #333333;
     font-size: 15px;
