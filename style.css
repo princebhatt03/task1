@@ -14,19 +14,23 @@ body {
 #page1 {
   width: 100%;
   min-height: 70vh;
-  background-color: white;
+  background: url(img/back1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #page2 {
   max-width: 100%;
   overflow: hidden;
-  min-height: 80vh;
+  min-height: 70vh;
   background-color: #f8f8f8;
 }
+
 #page3 {
   max-width: 100%;
-  min-height: 80vh;
+  height: auto;
   background-color: white;
 }
+
 .page1-container1 {
   display: flex;
   justify-content: center;
@@ -127,7 +131,8 @@ body {
 }
 .page3-container {
   width: 100%;
-  height: 80vh;
+  height: auto;
+  padding-bottom: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -192,6 +197,9 @@ body {
     display: inline-block;
     width: 100%;
     position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: url(img/back1.png);
     text-align: center;
   }
   .center {
@@ -207,7 +215,7 @@ body {
     height: 220px;
   }
   .gallery h1 {
-    font-size: 26px;
+    font-size: 24px;
     padding: 5px 0;
     color: #333333;
   }
@@ -228,6 +236,7 @@ body {
   }
   .page2-conatiner1 {
     max-width: 100%;
+    height: auto;
   }
   .container {
     display: inline-block;
@@ -237,10 +246,13 @@ body {
   }
   .image1 {
     width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
   }
   .image1 img {
     padding: 0;
-    width: 100%;
+    width: 80%;
   }
   .text {
     justify-content: center;
@@ -251,6 +263,7 @@ body {
   .text h1 {
     font-size: 24px;
     text-align: center;
+    color: #333333;
     padding: 5px 20px;
   }
   .text h2 {
@@ -276,7 +289,7 @@ body {
   }
   .page3-container {
     width: 100%;
-    height: 80vh;
+    height: auto;
     display: inline-block;
     justify-content: space-between;
     align-items: center;
@@ -286,13 +299,15 @@ body {
     justify-content: center;
     text-align: center;
     width: 100%;
-    height: 50vh;
+    height: auto;
     padding-left: 0;
     padding-top: 20px;
+    padding-bottom: 20px;
   }
   .left h1 {
-    padding: 5px 0;
-    color: #333333;
+    font-size: 24px;
+    text-align: center;
+    padding: 5px 20px;
   }
   .left h2 {
     padding: 5px 0;
@@ -315,13 +330,15 @@ body {
     justify-content: center;
     text-align: center;
     width: 100%;
-    height: 50vh;
+    height: auto;
     padding-left: 0;
     padding-top: 20px;
+    padding-bottom: 20px;
   }
   .right h1 {
     padding: 5px 0;
     color: #333333;
+    font-size: 24px;
   }
   .right h2 {
     padding: 5px 0;
@@ -338,5 +355,16 @@ body {
     font-weight: 100;
     color: #333333;
     font-size: 15px;
+  }
+  #page2 {
+    max-width: 100%;
+    overflow: hidden;
+    height: auto;
+    background-color: #f8f8f8;
+  }
+  #page3 {
+    max-width: 100%;
+    height: auto;
+    background-color: white;
   }
 }
