@@ -13,21 +13,21 @@ body {
 }
 #page1 {
   width: 100%;
+  background-color: white;
   min-height: 70vh;
-  background: url(img/back1.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: #88923d;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
 }
 #page2 {
   max-width: 100%;
   overflow: hidden;
   min-height: 70vh;
-  background-color: #f8f8f8;
+  background: url(img/back1.png);
+  background-repeat: no-repeat;
+  background-color: #88923d;
+  background-position: center center;
+  background-size: cover;
+
+  opacity: 1;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
 }
 
 #page3 {
@@ -53,7 +53,7 @@ body {
   font-size: 30px;
   letter-spacing: 1px;
   color: #1d9b16;
-  text-align: right;
+  text-align: center;
 }
 .page1-container2 {
   display: flex;
@@ -65,9 +65,14 @@ body {
 .gallery {
   margin: 5px;
   padding: 20px;
+  background: url(img/galBack.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
   border: 1px solid #1d9b16;
   float: left;
   width: 350px;
+  text-align: center;
   height: 220px;
 }
 .gallery h1 {
@@ -81,13 +86,13 @@ body {
   padding: 7px 0;
   font-weight: 600;
   color: #1d9b16;
-  text-align: right;
+  /* text-align: right; */
 }
 .gallery h5 {
   font-size: 22px;
   padding: 7px 0;
   font-weight: 600;
-  text-align: right;
+  /* text-align: right; */
   color: #1d9b16;
 }
 .gallery p {
@@ -152,7 +157,7 @@ body {
   justify-content: center;
   text-align: left;
   width: 50%;
-  height: 50vh;
+  height: auto;
   padding-left: 50px;
   padding-top: 50px;
 }
@@ -179,7 +184,7 @@ body {
 }
 .right {
   width: 50%;
-  height: 50vh;
+  height: auto;
   padding-left: 50px;
   padding-top: 50px;
 }
@@ -211,6 +216,7 @@ body {
     width: 100%;
     position: relative;
     text-align: center;
+    padding: 10px 0;
   }
   .center {
     display: flex;
@@ -230,7 +236,7 @@ body {
     color: #333333;
   }
   .gallery h4 {
-    font-size: 22px;
+    font-size: 20px;
     padding: 5px 20px;
     color: #1d9b16;
   }
@@ -246,8 +252,9 @@ body {
     font-size: 15px;
   }
   .page2-conatiner1 {
-    max-width: 100%;
+    width: auto;
     height: auto;
+    padding: 20px 0;
   }
   .container {
     display: inline-block;
@@ -258,8 +265,8 @@ body {
   .image1 {
     width: 100%;
     display: flex;
-    justify-content: center;
-    padding: 20px 0;
+    justify-content: left;
+    padding: 20px 20px;
   }
   .image1 img {
     padding: 0;
@@ -378,7 +385,11 @@ body {
     max-width: 100%;
     overflow: hidden;
     height: auto;
-    background-color: #f8f8f8;
+    background: url(img/back1.png);
+    background-repeat: no-repeat;
+    background-color: #88923d;
+    background-position: center center;
+    background-size: cover;
   }
   #page3 {
     max-width: 100%;
