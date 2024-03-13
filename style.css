@@ -65,7 +65,7 @@ body {
 .gallery {
   margin: 5px;
   padding: 20px;
-  border: 1px solid #00918c;
+  border: 1px solid #1d9b16;
   float: left;
   width: 350px;
   height: 220px;
@@ -240,10 +240,10 @@ body {
     color: #1d9b16;
   }
   .gallery p {
-    padding: 5px 20px;
+    padding: 2px 20px;
     text-align: left;
     color: #333333;
-    font-size: 20px;
+    font-size: 17px;
   }
   .page2-conatiner1 {
     max-width: 100%;
